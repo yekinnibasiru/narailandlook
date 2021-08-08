@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cff1cf !important;
+    color:#2f2d2d !important;
+    letter-spacing: 1.2px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: .3rem;
+    font-size: 14px;
+}
+.site-container{
+    margin-bottom: .1rem;
+    margin-top: .2rem;
+}
+.round-box{
+    background-color: #f0fff0;
+    border: 1px solid #c0d6c0;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .4rem;
+    text-align: center;
+}
+a{
+    color:#0d6efd;
+    font-size: .8rem;
+    text-decoration: none;
+}
+#site-title{
+    text-align: center;
+}
+#site-title a{
+    font-size:24px;
+    color: #10a110 !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+input,input:focus{
+    border:none;
+    box-shadow:none;
+    outline: none;
+}
+#search-form{
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+#search-input{
+    border-radius: .5rem;
+    border: 1px solid #c0d6c0;
+}
+#search-button{
+    border: 0.5px solid #c0d6c0;
+    border-radius: .5rem;
+    padding: .1rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    color:#54be54;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight:500;
+}
+.section{
+    margin-top: .4rem;
+    background-color: #f0fff0;
+    border: 1px solid #b9c2b9;
+    border-radius: .5rem;
+    text-align: center;
+}
+.section-header{
+    color:#373937;
+    background-color:#d5dfd5;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    margin:0;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top:.3rem;
+    padding-bottom: .3rem;
+}
+.section-footer{
+    background-color:#d5dfd5;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    margin-bottom:0 !important;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top:.3rem;
+    padding-bottom: .3rem;
+}
+.section p{
+    margin-top: .3rem;
+    margin-bottom: .2rem;
+}
+.category-link{
+    font-weight: bold;
+}
+.category-link:after{
+    content: ',';
+}
+.post-link{
+    color:#2f2d2d;
+    font-weight: bold;
+}
+.post-link:hover{
+    color:#2f2d2d;
+}
+.post-link::after{
+    content:'\226A';
+    font-size: 12px;
+    font-weight: normal;
+}
+.post-link:before{
+    content:'\226B';
+    font-size:12px;
+    font-weight: normal;
+}
+.footer p{
+    font-size: 12px;
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+}
+
+
+
+
+
+
+
+
